@@ -19,7 +19,7 @@ ul{
 
 .button_1{
   height:38px;
-  background:#e8491d;
+  background:#41DEB7;
   border:0;
   padding-left: 20px;
   padding-right:20px;
@@ -28,7 +28,7 @@ ul{
 
 .dark{
   padding:15px;
-  background:#35424a;
+  background:#5271da;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
@@ -36,11 +36,11 @@ ul{
 
 /* Header **/
 header{
-  background:#39424a;
+  background:#5271da;
   color:#ffffff;
   padding-top:30px;
   min-height:70px;
-  border-bottom:#e8491d 3px solid;
+  border-bottom:#fa3a6a 3px solid;
 }
 
 header a{
@@ -70,23 +70,23 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:#e8491d;
+  color:#FE9BB3;
   font-weight:bold;
 }
 
 header a:hover{
-  color:#cccccc;
+  color:#41DEB7;
   font-weight:bold;
 }
 
 /* Showcase */
 #showcase{
-  min-height:400px;
-  background:url('../img/showcase2.jpg') no-repeat 0 -400px;
+  /*min-height:400px;*/
+  background:url('../img/showcase.jpg') no-repeat;
   text-align:center;
-  color:#ffffff;
-/*  background-size: 100% 100%;
- line-height: 20vh;*/
+  color:#201b1b;
+  background-size: 100% 100%;
+ line-height: 20vh;
   width: 100%;
   margin: auto;
 }
@@ -105,7 +105,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:#5271da;
 }
 
 #newsletter h1{
@@ -161,7 +161,7 @@ article#main-col{
 ul#services li{
   list-style: none;
   padding:20px;
-  border: #cccccc solid 1px;
+  border: #5271da solid 1px;
   margin-bottom:5px;
   background:#e6e6e6;
 }
@@ -170,7 +170,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color:#5271da;
   text-align: center;
 }
 
